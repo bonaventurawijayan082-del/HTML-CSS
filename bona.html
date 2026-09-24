@@ -1,108 +1,111 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tentang Diri Saya</title>
+    <link rel="stylesheet" href="bona.css">
 </head>
-
 <body>
 
-    <h1>Tentang Diri Saya</h1>
+    <nav class="navbar">
+        <div class="nav-brand">Bonaventura<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#hobi">Hobi</a></li>
+            <li><a href="#kegiatan">Kegiatan</a></li>
+            <li><a href="#makanan">Makanan</a></li>
+            <li><a href="#medsos">Media Sosial</a></li>
+            <li><a href="#foto">Foto</a></li>
+            <li><a href="#jadwal">Jadwal</a></li>
+        </ul>
+    </nav>
 
-    <p>Halo, nama saya Bonaventura Irawan Wijayanto, biasa dipanggil Bona.</p>
+    <header class="hero">
+        <h1>Tentang Diri Saya</h1>
+        <p>Halo, nama saya Bonaventura Irawan Wijayanto, biasa dipanggil Bona.</p>
+        <p>Saya adalah seorang mahasiswa Informatika di Universitas Sanata Dharma.</p>
+    </header>
 
-    <p>Saya adalah seorang mahasiswa Informatika di Universitas Sanata Dharma.</p>
+    <main>
 
-    <h2>1. Hobi Saya</h2>
+        <section id="hobi" class="section">
+            <h2>1. Hobi Saya</h2>
+            <ul class="tag-list">
+                <li class="tag">Ngopi</li>
+                <li class="tag">Mendengarkan musik</li>
+                <li class="tag">Bersepeda</li>
+                <li class="tag">Jalan-jalan</li>
+            </ul>
+        </section>
 
-    <ul>
-        <li>Ngopi</li>
-        <li>Mendengarkan musik</li>
-        <li>Bersepeda</li>
-        <li>Jalan-jalan</li>
-    </ul>
+        <section id="kegiatan" class="section">
+            <h2>2. Tentang Kegiatan Saya</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <p>Saya senang <b>Ngopi</b> dan <i>mendengarkan musik</i> ketika sedang memiliki waktu luang.</p>
+                </div>
+                <div class="card highlight">
+                    <p>Saya juga suka jalan-jalan bersama teman keluar kota bahkan berkeliling desa.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="makanan" class="section">
+            <h2>3. Makanan Favorit</h2>
+            <ol class="food-list">
+                <li>Nasi Goreng</li>
+                <li>Mie Ayam</li>
+                <li>Ayam Geprek</li>
+            </ol>
+        </section>
+
+        <section id="medsos" class="section">
+            <h2>4. Media Sosial</h2>
+            <p>
+                Kunjungi
+                <a class="btn-link" href="https://www.instagram.com/boonaventura_" target="_blank" rel="noopener">Instagram saya</a>
+            </p>
+        </section>
+
+        <section id="foto" class="section">
+            <h2>5. Foto</h2>
+            <div class="photo-wrapper">
+                <img src="foto_Bona.jpg" alt="Foto Bona" class="profile-photo">
+            </div>
+        </section>
+
+        <section id="jadwal" class="section">
+            <h2>6. Kegiatan Saya</h2>
+            <div class="table-wrapper">
+                <table class="schedule-table">
+                    <tr>
+                        <th>Hari</th>
+                        <th>Kegiatan</th>
+                    </tr>
+                    <tr><td>Senin</td><td>Kuliah</td></tr>
+                    <tr><td>Selasa</td><td>Kuliah</td></tr>
+                    <tr><td>Rabu</td><td>Kuliah</td></tr>
+                    <tr><td>Kamis</td><td>Kuliah</td></tr>
+                    <tr><td>Jumat</td><td>Kuliah</td></tr>
+                    <tr><td>Sabtu</td><td>Tidur</td></tr>
+                    <tr><td>Minggu</td><td>Tidur</td></tr>
+                </table>
+            </div>
+        </section>
+
+        <section id="format" class="section">
+            <h2>7. Format Kalimat</h2>
+            <p><u>Saya sedang belajar HTML.</u></p>
+            <p class="align-left">Kalimat ini rata kiri.</p>
+            <p class="align-center">Kalimat ini rata tengah.</p>
+            <p class="align-right">Kalimat ini rata kanan.</p>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Bonaventura Irawan Wijayanto — Dibuat dengan HTML &amp; CSS</p>
+    </footer>
 
 </body>
 </html>
-
-    <h2>2. Tentang Kegiatan Saya</h2>
-
-    <p>
-        Saya senang <b>Ngopi</b> dan <i>mendengarkan musik</i>
-        ketika sedang memiliki waktu luang.
-    </p>
-
-    <p style="color:red;">
-        Saya juga suka jalan-jalan bersama teman keluar kota bahkan berkeliling desa.
-    </p>
-
-    <h2>3. Makanan Favorit</h2>
-
-    <ol>
-        <li>Nasi Goreng</li>
-        <li>Mie Ayam</li>
-        <li>Ayam Geprek</li>
-    </ol>
-
-    <h2>4. Media Sosial</h2>
-
-    <p>
-        Kunjungi
-        <a href="https://www.instagram.com/boonaventura_">
-            Instagram saya
-        </a>
-    </p>
-        <h2>5. Foto</h2>
-
-    <img src="foto_Bona.jpg" alt="Foto Bona" width="300">
-
-    <h2>6. Kegiatan Saya</h2>
-
-    <table border="1">
-        <tr>
-            <th>Hari</th>
-            <th>Kegiatan</th>
-        </tr>
-        <tr>
-            <td>Senin</td>
-            <td>Kuliah</td>
-        </tr>
-        <tr>
-            <td>Selasa</td>
-            <td>Kuliah</td>
-        </tr>
-        <tr>
-            <td>Rabu</td>
-            <td>Kuliah</td>
-        </tr>
-        <tr>
-            <td>Kamis</td>
-            <td>Kuliah</td>
-        </tr>
-        <tr>
-            <td>Jumat</td>
-            <td>Kuliah</td>
-        </tr>
-        <tr>
-            <td>Sabtu</td>
-            <td>Tidur</td>
-        </tr>
-    </table>
-
-    <h2>7. Format Kalimat</h2>
-
-    <p>
-
-        <u>Saya sedang belajar HTML.</u>
-    </p>
-
-    <p style="text-align: left;">
-        Kalimat ini rata kiri.
-    </p>
-
-    <p style="text-align: center;">
-        Kalimat ini rata tengah.
-    </p>
-
-    <p style="text-align: right;">
-        Kalimat ini rata kanan.
-    </p>
